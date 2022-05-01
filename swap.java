@@ -9,6 +9,7 @@ public class swap
         int b = sc.nextInt();
         System.out.println("Before Swapping: a = "+a+" and b = "+b);
         int c = a;
+        
         a = b;
         b = c;
         System.out.println("After Swapping: a = "+a+" and b = "+b);
